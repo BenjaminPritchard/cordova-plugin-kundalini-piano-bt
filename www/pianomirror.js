@@ -3,9 +3,15 @@
 var exec = require("cordova/exec");
 
 var kundalinipianomirror = {
-	connect: function(txt, duration, sc, ec) {
-		exec(sc, ec, "PianoMirrorBTProtocolCordova", "connect", [txt, duration]);
-	}
+
+connect: function(sc, ec) {
+    exec(sc, ec, "PianoMirrorBTProtocolCordova", "connect", []);
+},
+
+setMode: function(mode, sc, ec) {
+    exec(sc, ec, "PianoMirrorBTProtocolCordova", "setMode", [mode]);
+}
+
 };
 
 module.exports = kundalinipianomirror;
