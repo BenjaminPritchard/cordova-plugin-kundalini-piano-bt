@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="cordova-plugin-kundalini-piano-bt"
+        version="1.0.1">
+    <name>Kundalini Piano Mirror</name>
+    <description></description>
+    <license>Apache 2.0</license>
+    <keywords></keywords>
+    <repo></repo>
+    <issue></issue>
+    <engines>
+        <engine name="cordova-plugman" version=">=4.2.0"/>
+    </engines>
+
+    <js-module src="www/pianomirror.js" name="pianomirror">
+        <merges target="kundalinipianomirror" />
+    </js-module>
+    
+    <platform name="android">
+        <config-file target="config.xml" parent="/*">
+            <feature name="PianoMirrorBTProtocolCordova" >
+                <param name="android-package" value="com.kundalini.android.pianomirror.PianoMirrorBTProtocolCordova"/>
+            </feature>
+        </config-file>
+        <source-file src="src/android/BluetoothSerialService.java" target-dir="com.kundalini.android.pianomirror" />
+		<source-file src="src/android/PianoMirrorBTProtocol.java" target-dir="com.kundalini.android.pianomirror" />
+		<source-file src="src/android/PianoMirrorBTProtocolCordova.java" target-dir="com.kundalini.android.pianomirror" />
+    </platform>
+
+</plugin>

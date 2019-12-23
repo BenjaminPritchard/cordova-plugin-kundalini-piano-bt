@@ -1,0 +1,23 @@
+{
+  "name": "cordova-plugin-kundalini-piano-bt",
+  "version": "1.0.1",
+  "description": "BlueTooth Interface to Kundalini Piano Mirror",
+  "cordova": {
+    "id": "cordova-plugin-kundalini-piano-bt",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova-plugman",
+      "version": ">=4.2.0"
+    }
+  ],
+  "author": "Benjamin Pritchard",
+  "license": "Apache 2.0"
+}
