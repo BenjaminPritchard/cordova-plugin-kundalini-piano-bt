@@ -8,6 +8,9 @@ No Bluetooth or protocol information is exposed to Javascript; instead all BT an
 More information on the Kundalini Piano Mirror can be found at:
 https://www.kundalinisoftware.com/kundalini-piano-mirror/   
 
+More information on this Cordova Plugin can be found at: 
+https://www.benjaminpritchard.org/cordova-bluetooth-plugin-for-the-kundalini-piano-mirror/
+
 # Supported Platform
 Android Only
 
