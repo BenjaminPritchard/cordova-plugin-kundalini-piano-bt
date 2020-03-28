@@ -4,6 +4,9 @@
 // Benjamin Pritchard / Kundalini Software
 // 23-Dec-2019
 //
+// Note: as you can see, this code is incomplete. I do not have a working XCode environment to really be able to 
+//		 work on this. As things stand, this plugin only works for Android.
+//
 
 #include "stdio.h"
 #include "stdlib.h"
@@ -36,8 +39,10 @@ const char *SerialPortServiceClass_UUID = "baae2a87-e21e-47bb-903d-ae30fa61d548"
 /*
 char* return UUID_as_string() {
 }
-*/
+
 
 int main(int argc, char *argv[]) {
 	printf("IOS version of Cordova Bluetooth Plugin\n");
 }
+
+/*
