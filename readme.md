@@ -24,15 +24,15 @@ Kundalini Piano Mirror must already be paired with the phone via BT before this 
 
 # Usage
 
- window.kundalinipianomirror.connect(,
-      function(e){ // ok },
-      function(e){ // error }
-);
+      window.kundalinipianomirror.connect(,
+            function(e){ // ok },
+            function(e){ // error }
+      );
 
-window.kundalinipianomirror.setMode(mode,
-      function(e){ // ok },
-      function(e){ // error }
-);
+      window.kundalinipianomirror.setMode(mode,
+            function(e){ // ok },
+            function(e){ // error }
+      );
 
 Valid Transpostion Modes:
     0 - None
