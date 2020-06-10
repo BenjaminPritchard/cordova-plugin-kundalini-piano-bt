@@ -24,7 +24,7 @@ Android Only
 
 # Installation
 
-cordova plugin add https://github.com/BenjaminPritchard/cordova-plugin-kundalini-piano-bt
+      cordova plugin add https://github.com/BenjaminPritchard/cordova-plugin-kundalini-piano-bt
 
 # Notes
 
